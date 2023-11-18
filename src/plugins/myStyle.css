@@ -1,0 +1,206 @@
+@font-face {
+  font-family: "TommySoft";
+  src: local("Champagne&TommySoft"),
+    url("../assets/fonts/Tommy Soft.otf") format("truetype");
+}
+
+body {
+  font-family: "TommySoft";
+}
+
+td {
+  border-left: 1px solid rgb(215, 218, 218);
+  border-top: none !important;
+  border-bottom: 1px solid rgb(215, 218, 218);
+  padding: 0px;
+  font-size: 10px;
+  background-color: whitesmoke;
+}
+th {
+  font-style: bold;
+  border: 1px solid rgb(215, 218, 218);
+}
+
+.mainbarTitle {
+  font-family: "TommySoft";
+  font-size: 22px;
+}
+.toolbarTitle {
+  font-family: "TommySoft";
+  font-size: 18;
+}
+.textField {
+  font-family: "TommySoft";
+  font-size: 14;
+}
+.borders {
+  box-sizing: inherit;
+  border-radius: 7px;
+  border: 2px solid #4c7d60;
+}
+.myPointer {
+  cursor: pointer;
+}
+
+/* td {
+
+    border-collapse:initial;
+
+    width:1%;
+
+    padding:0;
+
+    margin:0;
+
+    white-space: nowrap;
+
+   
+
+}
+
+
+
+table > tbody > tr > td:nth-child(11),
+
+
+
+table > thead > tr > th:nth-child(11) {
+
+top: 10;
+
+position: sticky !important;
+
+position: -webkit-sticky !important;
+
+left: 0;
+
+right:0;
+
+z-index: 1;
+
+background-color:rgb(183, 221, 236);
+
+border-radius: 5px;
+
+
+
+}
+
+table > thead > tr > th:nth-child(11) {
+
+    z-index: 1;
+
+    }
+
+    table > tbody > tr > td:nth-child(11),
+
+    table > thead > tr > th:nth-child(11) {
+
+    top: 0;
+
+    position: sticky !important;
+
+    position: -webkit-sticky !important;
+
+    right: 0;
+
+    z-index: 1;
+
+ 
+
+    }
+
+    table > thead > tr > th:nth-child(11) {
+
+    z-index: 1;
+
+    } */
+.v-list--dense .v-list-item,
+.v-list-item--dense {
+  min-height: 20px !important;
+  height: 2rem;
+}
+
+.v-application--is-ltr .v-list-item__action:first-child,
+.v-application--is-ltr .v-list-item__icon:first-child {
+  margin-right: 0.5rem !important;
+}
+.classT tr:hover {
+  background-color: #eeeeee;
+}
+.classT {
+  border-left: 2px solid gray;
+}
+.theme--light.v-data-table
+  > .v-data-table__wrapper
+  > table
+  > thead
+  > tr:last-child
+  > th {
+  border-bottom: thin solid rgba(0, 0, 0, 0.12);
+  background-color: #658ea9;
+  font-size: 15px !important;
+  color: whitesmoke;
+}
+/* tr:nth-child(even) {
+  background-color: #e7f2fc;
+} */
+.classT,
+th,
+td,
+tr {
+  border: 1px solid silver;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+td {
+  line-height: 1.5;
+  max-width: 300%;
+}
+/* .button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #04AA6D;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+} */
+
+/* .notification {
+  background-color: rgb(128, 86, 86);
+  color: white;
+  text-decoration: none;
+  padding: 15px 26px;
+  position: relative;
+  display: inline-block;
+  border-radius: 2px;
+}
+
+.notification:hover {
+  background: red;
+}
+
+.notification .badge {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  padding: 5px 10px;
+  border-radius: 50%;
+  background-color: red;
+  color: white;
+} */
